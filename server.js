@@ -64,11 +64,9 @@ app.post("/login", async (req, res) => {
   }
 });
 
-// ✅ Test route
 app.get("/", (req, res) => {
   res.send("Backend Running 🚀");
 });
-
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);
 });
